@@ -1,0 +1,51 @@
+#titulo_login {
+    width: 500px;
+    padding: 20px;
+    font-size: 4.5em;
+    position: fixed;
+    top: 20%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    font-family: 'KaushanScript-Regular', cursive;
+    /* display: none; */
+    box-sizing: border-box;
+}
+
+.errores {
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* usuario registrado como administrador */
+
+#usuarioRegistrado {
+    color: white;
+    font-size: 1.2em;
+    width: 300px;
+    text-align: center;
+    background-color: red;
+}
+
+.tamano,
+i {
+    font-size: 1.1em;
+}
+
+.tamano1 {
+    background-color: red;
+}
+
+.tamano2 {
+    background-color: blue;
+}
+
+
+/* circulo de foto */
+
+#circulo>img {
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
+}

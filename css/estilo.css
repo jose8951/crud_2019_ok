@@ -1,0 +1,575 @@
+@font-face {
+    src: url('../css/Langar/Langar-Regular.ttf');
+    font-family: 'Langar-Regular';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* font-family: "Lato", sans-serif; */
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    background-color: aliceblue;
+    /* background: radial-gradient(red, yellow, rgb(30, 144, 255)); */
+}
+
+h1,
+h2 {
+    font-family: 'Langar-Regular';
+    /* font-family: Arial, 'Franklin Gothic Medium', 'Arial Narrow', sans-serif; */
+    /* font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS'; */
+    /* color: red; */
+}
+
+h3 {
+    font-family: 'Langar-Regular';
+    /* font-family: Arial, 'Franklin Gothic Medium', 'Arial Narrow', sans-serif; */
+    /* font-family: sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS'; */
+    /* color: black; */
+}
+
+.contenedor-alto {
+    height: 100%;
+}
+
+
+/* logo y titulo de invitado  */
+
+.contenedorInvitado {
+    background-color: #12994B;
+    /* display: flex; */
+    margin: auto;
+    width: 98%;
+}
+
+.contenedorInvitado #logoInvitado {
+    width: 100%;
+    margin: auto;
+    border: 1px solid white;
+}
+
+#botonesInvitado #tituloInvitadoCursos {
+    font-size: 2.5em;
+    font-family: 'Langar-Regular';
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+#botonesInvitado {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#centradoButton button {
+    border: 1px solid red;
+    width: 150px;
+}
+
+.quienesUsuario {
+    color: white;
+    margin-right: 300px;
+}
+
+
+/* da border al login */
+
+.marco-login {
+    border-radius: 10%;
+    height: 35%;
+}
+
+#imagenOmega,
+img {
+    width: 50px;
+}
+
+.marco-login .avatar img {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: -50px;
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    z-index: 9;
+    background: #70c5c0;
+    padding: 15px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+/* coantenedor de la cabecera del alumnos */
+
+#contenedorCabecera {
+    background-color: #12994B;
+    padding: 5px;
+    margin-bottom: 2px;
+}
+
+
+/* header {
+    background: #8E2DE2;
+    background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+    background: linear-gradient(to right, #4A00E0, #8E2DE2);
+  } */
+
+
+/*estilos para el encabezdo de  todas las tabla color blanco*/
+
+table th {
+    background-color: #337ab7 !important;
+    color: white;
+}
+
+table>tbody>tr>td {
+    vertical-align: middle !important;
+}
+
+
+/*para alinear los botones y cuadro de busqueda botonos alineados*/
+
+.btn-group,
+.btn-group-vertical {
+    position: relative !important;
+    width: 40%;
+}
+
+
+/* margenes del nav del alumno */
+
+.navbar {
+    color: white !important;
+    width: 98%;
+    margin: auto;
+}
+
+
+/* ancho de las imagenes del encabezdo */
+
+#fotoUsuario img {
+    width: 40px;
+    height: 40px;
+    margin-right: 40px;
+}
+
+
+/* muestra el color factura pagada. esta clase viene de listatoFacturas.js*/
+
+.color {
+    color: red;
+    font-weight: 700;
+}
+
+
+/* tamaño de la imagen cuando actualizamos el formulario */
+
+.updateImagen img {
+    margin-left: 50px;
+    width: 60px;
+    height: 60px;
+    margin-top: 15px;
+}
+
+#fotoBorrar,
+img {
+    width: 100px;
+    height: 100px;
+    margin-top: 40px;
+}
+
+
+/* marca los errores en color red */
+
+#erroresDatos,
+#erroresPassword,
+#erroresalumnos,
+#erroresprofesor,
+#erroresAdministrador {
+    color: red;
+}
+
+
+/* errores de la update de alumnos */
+
+.container .errores {
+    color: red;
+    /* border: 1px solid red; */
+}
+
+
+/* errores de la factura  */
+
+.container-fluid .errores {
+    margin-bottom: 20px;
+    color: red;
+    /* background-color: blue; */
+}
+
+
+/* cabecera alumnos datos matriculas */
+
+#cabeceraAlumno {
+    background-color: #E7EFF4;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+
+.EltituloAlumnoCabecera {
+    font-weight: 900;
+    font-size: 1em;
+}
+
+.tituloAlumnoCabecera {
+    font-weight: bold;
+    padding-right: 6px;
+    font-size: 1em;
+}
+
+
+/* posicion del logo de la academia en la empresa */
+
+#titulo_logo,
+img {
+    width: 100%;
+    margin: auto;
+    /* border: 4px solid green; */
+    height: auto;
+}
+
+
+/* le damos formato a las imagenes de las tablas */
+
+center #imagenFotoAlumnos {
+    width: 60px;
+    height: 30px;
+}
+
+center #imagenFotoProfesor,
+img {
+    width: 60px;
+    height: 30px;
+}
+
+div#erroresalumnos {
+    height: 20px;
+    width: 800px;
+    /* border: 1px solid gold; */
+}
+
+#formUpdateAlumno .updateAlumnoBtn {
+    height: 70px;
+}
+
+#formUpdateAlumno .updateAlumnoBtn .errores {
+    margin-top: 10px;
+    text-align: left;
+}
+
+#formUpdateAlumnoPassword .updateAlumnoBtn {
+    height: 70px;
+    margin-top: 20px;
+}
+
+#formUpdateAlumnoPassword .updateAlumnoBtn .errores {
+    margin-top: 10px;
+    text-align: left;
+}
+
+
+/* colores al borrado de la matricula */
+
+#formMatriculaDelete #advertenciaBorrado {
+    color: red;
+    font-size: 1.2em;
+}
+
+#eliminarMatricula #advertenciaBorrado {
+    color: red;
+    font-size: 1.2em;
+}
+
+#crearAdministrador .botonesAlumnosNuevos {
+    height: 70px;
+}
+
+#formNuevoAlumno .botonesAlumnosNuevos {
+    /* border: 1px solid blue; */
+    text-align: center;
+}
+
+
+/* formato a la imagen del borrado del administrador */
+
+#eliminarAdministrador #fotoBorrarAdministrador {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #70c5c0;
+    padding: 5px;
+}
+
+
+/* ccs de la página de cursos */
+
+#erroresCursos {
+    color: red;
+}
+
+#formNuevoCurso .botonesCursos {
+    height: 70px;
+}
+
+.botonesCursos #erroresCursos {
+    text-align: left;
+    margin-top: 10px;
+}
+
+#noSePuedeEliminarCurso #errorCurso {
+    color: red;
+    font-size: 1.6em;
+    font-style: italic;
+}
+
+#noSePuedeEliminarCurso #errorCurso span {
+    color: black;
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+
+/* botonnes facturas */
+
+#formFacturas #btnFacturas {
+    /* border: 1px solid gold; */
+    height: 80px;
+    text-align: center;
+}
+
+#btnFacturas .errores {
+    text-align: left;
+    margin-top: 15px;
+}
+
+
+/* botones password update profesor */
+
+#modalUpdateProfesorPassword .btnupdatefrofesor {
+    /* border: 1px solid forestgreen; */
+    height: 80px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.btnupdatefrofesor #erroresPassword {
+    text-align: left;
+    margin-top: 15px;
+}
+
+
+/* control de los botones de la cabecera (alumno, profesor, administrador)  y centrado */
+
+.totalcontainer {
+    display: flex;
+    margin: auto;
+    width: 98%;
+    background-color: #12994B;
+}
+
+
+/* botones del nav alumnos, profesores, administrador lado izquiedo */
+
+.totalcontainer .flex-container {
+    display: flex;
+    width: 60%;
+    align-items: center;
+    height: 60px;
+    /* border: 1px solid blue; */
+}
+
+
+/* botones del nava alumnos, profesor, administrador lado derecho */
+
+.totalcontainer .flex-containerEnd {
+    display: flex;
+    justify-content: flex-end;
+    /* border: 1px solid red; */
+    width: 40%;
+    align-items: center;
+}
+
+
+/* controlamos el tamaño de los botones del administrdor */
+
+.flex-container>div>button {
+    padding: 4px;
+    margin: 7px;
+    font-size: 1em;
+    width: 120px;
+    text-align: center;
+}
+
+.flex-container>div>button#updateAdministrador {
+    width: 165px;
+}
+
+.flex-containerEnd>div>button {
+    margin: 5px;
+    padding: 4px;
+    font-size: 1em;
+    width: 100px;
+    text-align: center;
+    background-color: red;
+}
+
+
+/* ancho de la session del usuario registrado */
+
+.flex-containerEnd .profesorRegistrado {
+    color: white;
+    width: 100%;
+    font-size: 1em;
+}
+
+.flex-containerEnd>div>img {
+    width: 80px;
+    height: auto;
+    margin-right: 60px;
+}
+
+.flex-containerEnd #imagenProfesor img {
+    width: 80px;
+    height: 40px;
+    margin-left: 5px;
+}
+
+
+/* margens del input radio */
+
+input[type="radio"] {
+    margin-right: 20px;
+}
+
+.container-fluid .radioFormulario {
+    margin-bottom: 20px;
+}
+
+
+/* situar la imagen para update del profesor */
+
+#formUpdateProfesor .updateImagen {
+    margin-left: 4%;
+    margin-right: 20%;
+    width: 100px;
+}
+
+#formUpdateProfesor .updateImagen img {
+    width: 90px;
+    height: 60px;
+}
+
+#formUpdateAdministrador .imgUpdateAdministrador #imagenfile {
+    /* border: 4px solid blue; */
+    width: 70px;
+    height: 70px;
+}
+
+
+/* imagen del administrador para cambiar permisos*/
+
+.imagenAdministrador #fotoAdministradorPermisos {
+    /* border: 1px solid greenyellow; */
+    width: 120px;
+    height: 120px;
+    margin: 30px;
+    border-radius: 50%;
+    border: 5px solid gray;
+    padding: 4px;
+}
+
+
+/* colocar la imagen cuando cambiamos password */
+
+.imagenCambiarPassword {
+    position: absolute;
+    top: 17px;
+    right: 0px;
+    text-align: center;
+}
+
+.imagenCambiarPassword #imagenfilePass {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid gray;
+    padding: 4px;
+}
+
+#formUpdateProfesorPassword #erroresPassword {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+
+/* borrado del profesor por el administrador */
+
+#eliminarProfesor #fotoBorrarProfesor {
+    /* border: 1px solid greenyellow; */
+    width: 100px;
+    height: 100px;
+}
+
+#eliminarProfesor #advertenciaBorrado {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+/* update administrador */
+
+#modalUpdateAdmPassword #updateAdministradorPassword {
+    margin-top: 30px;
+    height: 80px;
+}
+
+#updateAdministradorPassword #erroresPassword {
+    margin-top: 10px;
+}
+
+
+/* css responsiveCSS  */
+
+@media only screen and (max-width: 1440px) {
+    .flex-container {
+        width: 100%;
+    }
+    .flex-containerEnd {
+        width: 100%;
+    }
+    .totalcontainer {
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 850px) {
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .flex-container>div>button {
+        /* background-color: #f1f1f1; */
+        padding: 0px;
+        margin: 5px;
+        font-size: 1em;
+        width: 120px;
+        text-align: center;
+    }
+}
